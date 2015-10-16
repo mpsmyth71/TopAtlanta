@@ -1,0 +1,56 @@
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.dll.config
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\LinqKit.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\log4net.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\log4net.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.dll.config
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\LinqKit.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.dll.config
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\LinqKit.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.dll.config
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\Repository.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\LinqKit.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.pdb

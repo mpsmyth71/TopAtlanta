@@ -1,0 +1,28 @@
+﻿@using TopAtlanta.Web.Models;
+
+@model AccountSearchVM
+@{
+    ViewBag.Title = "Manage Accounts";
+}
+
+<div class="row">
+    <section class="col-sm-3">
+        @Html.Partial("Criteria", this.Model.Criteria)
+        @Html.Partial("List", this.Model.List)
+    </section>
+
+    <section class="col-sm-6">
+        @Html.Partial("Record", this.Model.SelectedAccount)
+    </section>
+
+    <section class="col-sm-3">
+        @* Notes Section *@
+    </section>
+</div>
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('html').automod();
+        });
+    </script>
+}

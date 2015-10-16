@@ -1,0 +1,39 @@
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\Rollins.OperationHierarchy.Common.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\Rollins.OperationHierarchy.Common.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\log4net.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Helpers.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Mvc.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Razor.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\log4net.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Helpers.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Mvc.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Razor.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\obj\Debug\Rollins.OperationHierarchy.Common.csprojResolveAssemblyReference.cache
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\obj\Debug\Rollins.OperationHierarchy.Common.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Common\obj\Debug\Rollins.OperationHierarchy.Common.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\Rollins.OperationHierarchy.Common.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\Rollins.OperationHierarchy.Common.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\log4net.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Helpers.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Mvc.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Razor.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\log4net.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Helpers.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Mvc.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.Razor.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\obj\Debug\Rollins.OperationHierarchy.Common.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Rollins.OperationHierarchy.Common\obj\Debug\Rollins.OperationHierarchy.Common.pdb

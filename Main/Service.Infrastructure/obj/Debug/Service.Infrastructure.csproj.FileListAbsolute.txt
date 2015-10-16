@@ -1,0 +1,54 @@
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\Service.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\Service.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\log4net.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\Repository.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\LinqKit.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\Repository.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\log4net.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\CompanyHierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\Service.Infrastructure.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\Service.Infrastructure.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\Repository.Infrastructure.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\LinqKit.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\Repository.Infrastructure.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\Service.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\Service.Infrastructure.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\Repository.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\LinqKit.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\Repository.Infrastructure.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\obj\Debug\Service.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\Service.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\Service.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\Repository.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\LinqKit.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\Repository.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\obj\Debug\Service.Infrastructure.dll
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\obj\Debug\Service.Infrastructure.pdb
+C:\Users\CTSAdministrator\Documents\Visual Studio 2013\Projects\TopAtlanta\Service.Infrastructure\obj\Debug\Service.Infrastructure.csprojResolveAssemblyReference.cache

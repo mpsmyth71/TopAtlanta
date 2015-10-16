@@ -1,0 +1,40 @@
+﻿@using TopAtlanta.Web.Models;
+@using TopAtlanta.Common;
+
+@model AccountDetailVM
+
+<div class="box" data-module="account">
+
+    <div class="actions pull-right text-right">
+        <button type="button" class="btn btn-link" data-get="@Url.Action("Edit", new { this.Model.AccountId })">edit</button>
+    </div>
+
+    <h2>@Model.FirstName @Model.LastName</h2>
+
+    <div style="font-size:1.3em">
+
+        <div>
+            <a href="mailto:@Model.Email">@Model.Email</a>
+            <span class="pull-right text-muted">RCSC</span>
+        </div>
+
+        <br />
+
+        <div style="margin-top:8px">
+            <small class="text-muted">72412/7417</small>
+        </div>
+
+    </div>
+
+    <br />
+
+    <div class="text-muted text-small">
+        created
+        <span class="pull-right">updated</span>
+    </div>
+    <div class="text-muted">
+        @Model.CreatedBy.RemoveDomain() @Model.CreatedDate.ToFormatString()
+        <span class="pull-right">@Model.UpdatedBy.RemoveDomain() @Model.UpdatedDate.ToFormatString()</span>
+    </div>
+
+</div>

@@ -1,0 +1,86 @@
+﻿@using TopAtlanta.Web.Models;
+
+@model AccountSearchCriteriaVM
+
+<form class="box" data-module="acctcriteria" data-debounce="on" data-shortcut="alt-a" role="form" action="@Url.Action("List", "Account")" data-ignore-dirty="">
+    <button type="button" class="btn btn-link pull-right" data-dropdown="#filterDrop" style="display:block">any account</button>
+    <button type="button" class="btn btn-link" data-get="@Url.Action("Create", "Account")">new account</button>
+    @Html.ValidationSummary(false)
+    <div id="filterDrop" class="jq-dropdown dropdown-relative dropdown-tip">
+        <ul class="jq-dropdown-menu" data-select>
+            <li><label><input type="radio" name="filter" value="" checked> any account</label></li>
+            <li><label><input type="radio" name="filter" value="Lead"> Lead accounts</label></li>
+            <li><label><input type="radio" name="filter" value="Hot"> Hot accounts</label></li>
+            <li><label><input type="radio" name="filter" value="Active"> Active accounts</label></li>
+            <li><label><input type="radio" name="filter" value="Inactive"> Inactive accounts</label></li>
+            <li><label><input type="radio" name="filter" value="Sold"> Sold accounts</label></li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control", placeholder = "First" })
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                @Html.TextBoxFor(x => x.LastName, new { @class = "form-control", placeholder = "Last" })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                @Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "Email" })
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                @Html.TextBoxFor(x => x.Phone, new { @class = "form-control", placeholder = "Phone" })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                @Html.TextBoxFor(x => x.AddressLine, new { @class = "form-control", placeholder = "Address" })
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                @Html.TextBoxFor(x => x.PostalCode, new { @class = "form-control", placeholder = "Zip" })
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:5px">
+        <div class="col-sm-6">
+            <button type="reset" class="btn btn-link">clear</button>
+        </div>
+        <div class="col-sm-6 text-right">
+            <div class="snap-toggle"
+                 data-path-unchecked="M3 0v12h-3l4 4 4-4h-3v-12h-2zm4 0v2h5v-2h-5zm0 4v2h7v-2h-7zm0 4v2h9v-2h-9z"
+                 data-path-checked="M3 0v12h-3l4 4 4-4h-3v-12h-2zm4 0v2h9v-2h-9zm0 4v2h7v-2h-7zm0 4v2h5v-2h-5z">
+                <input type="checkbox" name="sortDesc" value="true" style="display:none" />
+                <svg width="16" height="16">
+                    <path d="M3 0v12h-3l4 4 4-4h-3v-12h-2zm4 0v2h5v-2h-5zm0 4v2h7v-2h-7zm0 4v2h9v-2h-9z" />
+                </svg>
+            </div>
+            <button type="button" class="btn btn-link" data-dropdown="#sortDrop" style="margin-top:-14px">sort</button>
+            <div id="sortDrop" class="jq-dropdown dropdown-relative dropdown-tip text-left">
+                <ul class="jq-dropdown-menu" data-select>
+                    <li><label><input type="radio" name="sort" value="" checked> sort</label></li>
+                    <li><label><input type="radio" name="sort" value="firstname"> first name</label></li>
+                    <li><label><input type="radio" name="sort" value="lastname"> last name</label></li>
+                    <li><label><input type="radio" name="sort" value="phone"> phone</label></li>
+                    <li><label><input type="radio" name="sort" value="addressline"> address</label></li>
+                    <li><label><input type="radio" name="sort" value="city"> city</label></li>
+                    <li><label><input type="radio" name="sort" value="postalcode"> zip</label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</form>
+
+

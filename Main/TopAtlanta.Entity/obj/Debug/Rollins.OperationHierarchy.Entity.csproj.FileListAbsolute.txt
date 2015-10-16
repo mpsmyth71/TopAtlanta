@@ -1,0 +1,13 @@
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\Rollins.OperationHierarchy.Entity.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\Rollins.OperationHierarchy.Entity.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\Repository.Infrastructure.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\EntityFramework.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\LinqKit.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\Repository.Infrastructure.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\EntityFramework.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\obj\Debug\Rollins.OperationHierarchy.Entity.csprojResolveAssemblyReference.cache
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\obj\Debug\Rollins.OperationHierarchy.Entity.dll
+C:\Projects\ContactCenter\Operational Hierarchy\Rollins.OperationHierarchy.Entity\obj\Debug\Rollins.OperationHierarchy.Entity.pdb

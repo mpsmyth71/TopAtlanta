@@ -1,0 +1,84 @@
+﻿body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI';
+    background:#f4f4f4;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+a, .btn.btn-link {color:#009bc2}
+a:hover, .btn.btn-link:hover, .btn.btn-link:focus {color:#00a6d0; text-decoration:none}
+
+/*Remove padding on buttons with the link class*/
+button.btn.btn-link { padding:0; border:0;}
+
+.jq-dropdown li > a:hover,
+.jq-dropdown label:hover {color:#00a6d0; cursor:pointer}
+.jq-dropdown label > * {vertical-align:middle}
+
+.snap-toggle {fill:#009bc2; cursor:pointer;display:inline-block;margin:7px 10px 0 0}
+.snap-toggle:hover {fill:#00a6d0}
+
+.box {background: #fff; border: 1px solid #b0b0b0; margin:0 0 15px 0; padding:10px 20px}
+.box .box-annotation { margin:-10px 0 0 -20px;padding:0 5px 0 5px; background: #aaa; color: #fff; display:table;}
+.box.box-addon{margin-top:-16px;border-top:1px dotted #b0b0b0}
+.box.selectable:hover {border:1px solid #8f8f8f;background:#fafafa;cursor:pointer}
+.box.selected {border-color: #0cf; cursor:pointer; background: url(../checkbg3.svg) no-repeat center #fff; 
+   background-size: auto 100%;}
+.box.selected:hover{border-color: #00b6e4; background: url(../checkbg3.svg) no-repeat center #fbfeff;
+   background-size: auto 100%;}
+
+.box .actions {margin-top:8px}
+.box .actions .btn:first-child {margin-bottom:0}
+.box .actions .btn:last-child {margin-bottom:5px}
+.box h2 {margin:15px 0 25px 0}
+.box .form-group {margin:10px 0 0 0}
+.box .input-group {margin:10px 0 0 0}
+.box .box-addon {border-top: 1px dotted #b0b0b0; padding: 10px 20px; margin: 0px -20px}
+form.box .row > div:not(:last-child) { padding-right: 0;}
+
+.box.item:first-child {margin-top:-15px}
+.box.item {margin:0}
+
+.box .line {margin-left:12%;font-size:1.1em}
+
+.box .bolded { font-weight:bold; font-size:1.2em }
+.box .vertical-spaced { margin: 5px 0 }
+.box .phone-block { display: inline-block; width:46%; white-space:nowrap }

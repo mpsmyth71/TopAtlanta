@@ -1,0 +1,15 @@
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Setup\publish\bin\Service.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Setup\publish\bin\Service.Infrastructure.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\Service.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\Service.Infrastructure.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\Repository.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\EntityFramework.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\LinqKit.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\Repository.Infrastructure.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\EntityFramework.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\obj\Release\Service.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\obj\Release\Service.Infrastructure.dll
+C:\Projects\Dev\Apps\Rollins\OperationalHierarchy\Service.Infrastructure\obj\Release\Service.Infrastructure.pdb

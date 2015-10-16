@@ -1,0 +1,34 @@
+﻿@using TopAtlanta.Web.Models;
+@using TopAtlanta.Common;
+
+@model ResultList<AccountListVM>
+
+<ul class="list-unstyled" data-module="acctlist">
+    @foreach (var account in Model)
+    {
+        account.FillBlank();
+
+        <li class="box selectable @(account.Selected ? "selected" : null)" data-acctid="@account.Id">        
+            <div>
+                <strong style="font-size:1.2em; font-weight:normal">@Html.Highlight("firstname", account.FirstName.ToProperCase()) @Html.Highlight("lastname", account.LastName.ToProperCase())</strong>
+            </div>
+            <div>
+                @Html.Highlight("addressline", account.AddressLine.ToProperCase())
+                <span class="pull-right" style="clear:both; margin-top:-3px">
+                    @Html.Highlight("Phone", account.Phone)
+                </span>
+            </div>
+            <div>
+                @account.City.ToProperCase(), @account.State @Html.Highlight("postalcode", account.PostalCode)
+                @*<span class="pull-right">
+                    @Html.Partial("Indicators", customer.Indicators)
+                </span>*@
+            </div>          
+        </li>
+    }
+
+    <li class="box stats text-center text-muted">
+        <small>@this.Model.GetMessage()</small>
+    </li>
+
+</ul>
