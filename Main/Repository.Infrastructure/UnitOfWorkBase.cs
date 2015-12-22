@@ -6,27 +6,28 @@ using System.Data;
 using System.Data.Common;
 using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
-
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Repository.Infrastructure
 {
 
-    public class UnitOfWorkBase : IUnitOfWork
+    public class UnitOfWorkBase : IUnitOfWorkAsync
     {
 
-        private IDataContext _dataContext;
+        private IDataContextAsync _dataContext;
         private bool _disposed;
         private ObjectContext _objectContext;
         private DbTransaction _transaction;
         private Dictionary<string, dynamic> _repositories;
 
-        public UnitOfWorkBase(IDataContext dataContext)
+        public UnitOfWorkBase(IDataContextAsync dataContext)
         {
             _dataContext = dataContext;
             _repositories = new Dictionary<string, dynamic>();
         }
 
-        public void Dispose()
+        public void Dispose() 
         {
             Dispose(true);
             GC.SuppressFinalize(this);
@@ -79,6 +80,26 @@ namespace Repository.Infrastructure
                 return ServiceLocator.Current.GetInstance<IRepository<T>>();
             }
 
+            return RepositoryAsync<T>();
+        }
+
+        public Task<int> SaveChangesAsync()
+        {
+            return _dataContext.SaveChangesAsync();
+        }
+
+        public Task<int> SaveChangesAsync(CancellationToken cancellationToken)
+        {
+            return _dataContext.SaveChangesAsync(cancellationToken);
+        }
+
+        public IRepositoryAsync<T> RepositoryAsync<T>() where T : class, IObjectState
+        {
+            if (ServiceLocator.IsLocationProviderSet)
+            {
+                return ServiceLocator.Current.GetInstance<IRepositoryAsync<T>>();
+            }
+
             if (_repositories == null)
             {
                 _repositories = new Dictionary<string, dynamic>();
@@ -88,7 +109,7 @@ namespace Repository.Infrastructure
 
             if (_repositories.ContainsKey(type))
             {
-                return (IRepository<T>)_repositories[type];
+                return (IRepositoryAsync<T>)_repositories[type];
             }
 
             var repositoryType = typeof(RepositoryBase<>);

@@ -1,7 +1,6 @@
 ﻿using Repository.Infrastructure.UnitTest;
 using System;
-
-
+using TopAtlanta.Entities.Models;
 
 namespace TopAtlanta.Tests.Fakes
 {
@@ -9,7 +8,7 @@ namespace TopAtlanta.Tests.Fakes
     {
         public UnitTestFakeDbContext()
         {
-            //AddFakeDbSet<Login, LoginDbSet>();
+            AddFakeDbSet<Contact, ContactDbSet>();
         }
     }
 }

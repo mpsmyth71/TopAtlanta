@@ -58,6 +58,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contract\IUnitOfWorkAsync.cs" />
+    <Compile Include="Contract\IRepositoryAsync.cs" />
+    <Compile Include="Contract\IDataContextAsync.cs" />
     <Compile Include="Contract\IDataContext.cs" />
     <Compile Include="Contract\IObjectState.cs" />
     <Compile Include="Contract\IQueryFluent.cs" />

@@ -25,6 +25,6 @@ namespace Repository.Infrastructure.Contract
         void Delete(T entity);
         void Delete(object id);
 
-        IRepository<T> GetRepository<T>() where T : class, IObjectState;
+        IRepository<TEntity> GetRepository<TEntity>() where TEntity : class, IObjectState;
     }
 }

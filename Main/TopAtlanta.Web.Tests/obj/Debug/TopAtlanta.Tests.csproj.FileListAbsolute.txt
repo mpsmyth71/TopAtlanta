@@ -69,10 +69,10 @@ C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtl
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Tests.pdb
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\EntityFramework.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Repository.Infrastructure.dll
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Service.Infrastructure.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\System.Web.Helpers.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\System.Web.Mvc.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\System.Web.Razor.dll
@@ -80,13 +80,17 @@ C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtl
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\System.Web.WebPages.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Entities.dll
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Repository.dll
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Service.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\LinqKit.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Repository.Infrastructure.pdb
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Service.Infrastructure.pdb
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Entities.pdb
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Repository.pdb
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Service.pdb
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\EntityFramework.xml
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\System.Web.Helpers.xml
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\System.Web.Mvc.xml
@@ -99,3 +103,5 @@ C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtl
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\obj\Debug\TopAtlanta.Tests.csprojResolveAssemblyReference.cache
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\obj\Debug\TopAtlanta.Tests.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\obj\Debug\TopAtlanta.Tests.pdb
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Data.dll
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Web.Tests\bin\Debug\TopAtlanta.Data.pdb

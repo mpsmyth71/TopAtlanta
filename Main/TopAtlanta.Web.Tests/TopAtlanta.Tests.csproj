@@ -44,7 +44,9 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -94,7 +96,10 @@
   <ItemGroup>
     <Compile Include="Fakes\UnitTestFakeDbContext.cs" />
     <Compile Include="Fakes\UnitTestFakeDbSet.cs" />
+    <Compile Include="IntegrationTests\ContactIntegration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceTests\ContactServiceTest.cs" />
+    <Compile Include="UnitTests\ContactUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -107,9 +112,25 @@
       <Project>{83fb857d-e144-4f8b-b0a6-5bd04411f605}</Project>
       <Name>Repository.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Service.Infrastructure\Service.Infrastructure.csproj">
+      <Project>{96919f0d-09db-427a-bd7f-ce0370982fba}</Project>
+      <Name>Service.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TopAtlanta.Data\TopAtlanta.Data.csproj">
+      <Project>{13d783e4-8657-4d91-9279-05eb89214ebf}</Project>
+      <Name>TopAtlanta.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TopAtlanta.Entity\TopAtlanta.Entities.csproj">
       <Project>{f5cc81ed-103b-491a-9e65-79aeb5554003}</Project>
       <Name>TopAtlanta.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TopAtlanta.Repository\TopAtlanta.Repository.csproj">
+      <Project>{2f172fbc-f28e-496c-a391-f9e7de635915}</Project>
+      <Name>TopAtlanta.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TopAtlanta.Service\TopAtlanta.Service.csproj">
+      <Project>{9681daea-a23e-4e69-9ae4-02340871a60f}</Project>
+      <Name>TopAtlanta.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

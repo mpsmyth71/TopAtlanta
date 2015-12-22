@@ -1,11 +1,12 @@
 ﻿using Repository.Infrastructure.Contract;
 using System;
-using System.Collections.Generic;
 using System.Data.Entity;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Repository.Infrastructure
 {
-    public class DataContext : DbContext, IDataContext
+    public class DataContext : DbContext, IDataContextAsync
     {
         private readonly Guid _instanceId;
         bool _disposed;
@@ -27,8 +28,21 @@ namespace Repository.Infrastructure
             SyncObjectsStatePostCommit();
             return changes;
         }
-        
-        public void SyncObjectState<TEntity>(TEntity entity) where TEntity : class, IObjectState
+
+        public override async Task<int> SaveChangesAsync()
+        {
+            return await this.SaveChangesAsync(CancellationToken.None);
+        }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
+        {
+            SyncObjectsStatePreCommit();
+            var changesAsync = await base.SaveChangesAsync(cancellationToken);
+            SyncObjectsStatePostCommit();
+            return changesAsync;
+        }
+
+        public void SyncObjectState<T>(T entity) where T : class, IObjectState
         {
             Entry(entity).State = StateHelper.ConvertState(entity.ObjectState);
         }

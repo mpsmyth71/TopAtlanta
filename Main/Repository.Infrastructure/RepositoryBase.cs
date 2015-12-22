@@ -7,19 +7,20 @@ using System.Linq.Expressions;
 using LinqKit;
 using Repository.Infrastructure.Contract;
 using Repository.Infrastructure.UnitTest;
-
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Repository.Infrastructure
 {
-    public class RepositoryBase<T> : IRepository<T> where T : class, IObjectState
+    public class RepositoryBase<T> : IRepositoryAsync<T> where T : class, IObjectState
     {
 
-        private readonly IDataContext _context;
+        private readonly IDataContextAsync _context;
         private readonly DbSet<T> _dbSet;
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWorkAsync _unitOfWork;
         HashSet<object> _entitesChecked; // tracking of all process entities in the object graph when calling SyncObjectGraph
 
-        public RepositoryBase(IDataContext context, IUnitOfWork unitOfWork)
+        public RepositoryBase(IDataContextAsync context, IUnitOfWorkAsync unitOfWork)
         {
             _context = context;
             _unitOfWork = unitOfWork;
@@ -74,7 +75,7 @@ namespace Repository.Infrastructure
 
         public virtual void Insert(T entity)
         {
-            entity.ObjectState = ObjectState.Added;;
+            entity.ObjectState = ObjectState.Added;
             _dbSet.Attach(entity);
             _context.SyncObjectState(entity);
         }
@@ -124,9 +125,39 @@ namespace Repository.Infrastructure
             return _dbSet;
         }
 
-        public IRepository<T> GetRepository<T>() where T : class, IObjectState
+        public IRepository<TEntity> GetRepository<TEntity>() where TEntity : class, IObjectState
         {
-            return _unitOfWork.Repository<T>();
+            return _unitOfWork.Repository<TEntity>();
+        }
+
+        public virtual async Task<T> FindAsync(params object[] keyValues)
+        {
+            return await _dbSet.FindAsync(keyValues);
+        }
+
+        public virtual async Task<T> FindAsync(CancellationToken cancellationToken, params object[] keyValues)
+        {
+            return await _dbSet.FindAsync(cancellationToken, keyValues);
+        }
+
+        public virtual async Task<bool> DeleteAsync(params object[] keyValues)
+        {
+            return await DeleteAsync(CancellationToken.None, keyValues);
+        }
+
+        public virtual async Task<bool> DeleteAsync(CancellationToken cancellationToken, params object[] keyValues)
+        {
+            var entity = await FindAsync(cancellationToken, keyValues);
+
+            if (entity == null)
+            {
+                return false;
+            }
+
+            entity.ObjectState = ObjectState.Deleted;
+            _dbSet.Attach(entity);
+
+            return true;
         }
 
         internal IQueryable<T> Select(
@@ -155,6 +186,16 @@ namespace Repository.Infrastructure
                 query = query.Skip((page.Value - 1)*pageSize.Value).Take(pageSize.Value);
             }
             return query;
+        }
+
+        internal async Task<IEnumerable<T>> SelectAsync(
+            Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            List<Expression<Func<T, object>>> includes = null,
+            int? page = null,
+            int? pageSize = null)
+        {
+            return await Select(filter, orderBy, includes, page, pageSize).ToListAsync();
         }
 
         private void SyncObjectGraph(object entity) // scan object graph for all 

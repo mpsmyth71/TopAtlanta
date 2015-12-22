@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-
+using System.Threading.Tasks;
 
 namespace Repository.Infrastructure
 {
@@ -45,6 +45,8 @@ namespace Repository.Infrastructure
         public IEnumerable<T> Select() { return _repository.Select(_expression, _orderBy, _includes); }
 
         public IEnumerable<TResult> Select<TResult>(Expression<Func<T, TResult>> selector) { return _repository.Select(_expression, _orderBy, _includes).Select(selector); }
+
+        public async Task<IEnumerable<T>> SelectAsync() { return await _repository.SelectAsync(_expression, _orderBy, _includes); }
 
         public IQueryable<T> SqlQuery(string query, params object[] parameters) { return _repository.SelectQuery(query, parameters).AsQueryable(); }
     }
