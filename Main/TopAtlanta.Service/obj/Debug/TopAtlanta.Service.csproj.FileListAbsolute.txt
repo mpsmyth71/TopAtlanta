@@ -42,12 +42,14 @@ C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtl
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\Repository.Infrastructure.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\Service.Infrastructure.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\TopAtlanta.Entities.dll
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\TopAtlanta.Repository.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\EntityFramework.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\LinqKit.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\Repository.Infrastructure.pdb
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\Service.Infrastructure.pdb
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\TopAtlanta.Entities.pdb
+C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\TopAtlanta.Repository.pdb
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\log4net.xml
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\EntityFramework.xml
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\TopAtlanta.Service\bin\Debug\Microsoft.Practices.ServiceLocation.pdb

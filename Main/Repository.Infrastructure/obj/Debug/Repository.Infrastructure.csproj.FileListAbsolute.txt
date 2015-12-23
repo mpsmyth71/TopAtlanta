@@ -81,4 +81,3 @@ C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\Reposi
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\Repository.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.dll
 C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.pdb
-C:\Users\msmyth\Documents\Visual Studio 2015\Projects\TopAtlantaSite\Main\Repository.Infrastructure\obj\Debug\Repository.Infrastructure.csprojResolveAssemblyReference.cache

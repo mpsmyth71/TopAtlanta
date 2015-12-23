@@ -9,9 +9,9 @@ namespace Service.Infrastructure
 {
     public abstract class Service<T> : IService<T> where T : class, IObjectState
     {
-        private readonly IRepository<T> _repository;
+        private readonly IRepositoryAsync<T> _repository;
 
-        protected Service(IRepository<T> repository) { _repository = repository; }
+        protected Service(IRepositoryAsync<T> repository) { _repository = repository; }
 
         public virtual T Find(params object[] keyValues) { return _repository.Find(keyValues); }
 

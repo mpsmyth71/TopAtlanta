@@ -15,9 +15,9 @@ namespace TopAtlanta.Tests.ServiceTests
         public void FindContactServiceById()
         {
             using (IDataContextAsync fakeDbContext = new UnitTestFakeDbContext())
-            using (IUnitOfWork unitOfWork = new UnitOfWorkBase(fakeDbContext))
+            using (IUnitOfWorkAsync unitOfWork = new UnitOfWorkBase(fakeDbContext))
             {
-                IContactService contactService = new ContactService(unitOfWork.Repository<Contact>());
+                IContactService contactService = new ContactService(unitOfWork.RepositoryAsync<Contact>());
 
                 contactService.Insert(new Contact { ContactId = 1, ObjectState = ObjectState.Added });
                 unitOfWork.SaveChanges();

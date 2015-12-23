@@ -5,6 +5,7 @@ using Repository.Infrastructure;
 using TopAtlanta.Data;
 using TopAtlanta.Service;
 using TopAtlanta.Entities.Models;
+using System.Linq;
 
 namespace TopAtlanta.Tests.IntegrationTests
 {
@@ -17,9 +18,9 @@ namespace TopAtlanta.Tests.IntegrationTests
             int id = 0;
 
             using (IDataContextAsync db = new DBTopAtlantaContext())
-            using (IUnitOfWork unitOfWork = new UnitOfWorkBase(db))
+            using (IUnitOfWorkAsync unitOfWork = new UnitOfWorkBase(db))
             {
-                IContactService contactService = new ContactService(unitOfWork.Repository<Contact>());
+                IContactService contactService = new ContactService(unitOfWork.RepositoryAsync<Contact>());
 
                 var contact = new Contact
                 {
@@ -34,12 +35,40 @@ namespace TopAtlanta.Tests.IntegrationTests
                 id = unitOfWork.SaveChanges();
             }
 
+            //Select
             using (IDataContextAsync db = new DBTopAtlantaContext())
-            using (IUnitOfWork unitOfWork = new UnitOfWorkBase(db))
+            using (IUnitOfWorkAsync unitOfWork = new UnitOfWorkBase(db))
             {
-                IContactService contactService = new ContactService(unitOfWork.Repository<Contact>());
-                var contact = contactService.Find(id);
+                IContactService contactService = new ContactService(unitOfWork.RepositoryAsync<Contact>());
+                var contact = contactService.GetContactByName("Mike", "Smyth").First();
+                id = contact.ContactId;
                 Assert.IsNotNull(contact);
+            }
+
+            //Update
+            using (IDataContextAsync db = new DBTopAtlantaContext())
+            using (IUnitOfWorkAsync unitOfWork = new UnitOfWorkBase(db))
+            {
+                IContactService contactService = new ContactService(unitOfWork.RepositoryAsync<Contact>());
+                var contact = contactService.Find(id);
+
+                contact.Birthday = DateTime.Parse("10/01/1971");
+                contactService.Update(contact);
+                unitOfWork.SaveChanges();
+
+            }
+
+            //Check and Delete
+            using (IDataContextAsync db = new DBTopAtlantaContext())
+            using (IUnitOfWorkAsync unitOfWork = new UnitOfWorkBase(db))
+            {
+                IContactService contactService = new ContactService(unitOfWork.RepositoryAsync<Contact>());
+                var contact = contactService.Find(id);
+
+                Assert.AreEqual(DateTime.Compare(DateTime.Parse(contact.Birthday.ToString()), DateTime.Parse("10/01/1971")),0);
+                contactService.Delete(contact);
+                unitOfWork.SaveChanges();
+
             }
         }
     }

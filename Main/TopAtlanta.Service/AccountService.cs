@@ -9,9 +9,9 @@ namespace TopAtlanta.Service
 
     public class AccountService : Service<Account>, IAccountService
     {
-        private readonly IRepository<Account> _repository;
+        private readonly IRepositoryAsync<Account> _repository;
 
-        public AccountService(IRepository<Account> repository)
+        public AccountService(IRepositoryAsync<Account> repository)
             : base(repository)
         {
             _repository = repository;
